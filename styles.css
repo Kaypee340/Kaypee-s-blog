@@ -1,0 +1,250 @@
+body{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}   
+.social-icons{
+    background-color: #3A3A3A;
+}
+footer{
+    background-color:#1A1A1A;
+    justify-content: center;
+    color:white;
+}
+.dash-board{
+    text-align: justify;
+    background: fixed;
+    background-color: rgb(107, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50;
+    font-weight: 700;
+    color: beige;
+    margin-top:0px;
+    padding-top: 30px; 
+    display: flex;
+    flex-direction: column;
+
+}
+table{
+    display:flex;
+    flex-direction: row;
+   
+}
+
+img{
+margin-right: 100px;
+}
+.logo{
+    margin-bottom: 80px;
+}
+.manu{
+    margin-right: 0px;
+}
+
+.general-news{
+    background-color: antiquewhite;
+    color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    border:5px black;
+
+    
+}
+
+.nav{
+   display: flex;
+   flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 210px;
+padding-bottom: 70px;
+}
+.nav ul{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav li{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.nav a{
+    display: flex;
+   flex-direction: row;
+    white-space: nowrap;
+    padding: 15px 20px;
+    align-items:center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.8s;
+    transition:opacity 0.15s;
+    transition: background-color 0.8s;
+    transition: box-shadow 0.8s;
+
+
+   
+
+}
+.nav li:hover a{
+    color:#000000;
+    transition: all 1s;
+    background-color: white;
+    border-radius: 50px;
+    opacity: 0.8;
+    box-shadow: 10px 10px 5px #000000;
+
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:3px;
+    bottom: 5px;
+    left:50%;
+    transition: color 0.4s ease;
+    transform: translateY(-50%);
+    
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+.nav-link::before{
+    visibility: visible;
+    width: 100%;
+}
+.sponsors ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+.sponsor-logo{
+    display: flex;
+    max-width: 200px;
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+}
+.foot ul{
+    list-style: none;
+    width: 100%;
+
+        
+}
+.foot ul li a{
+    padding: 15px;
+
+
+}
+.foot a{
+    white-space: nowrap;
+    padding:0;
+    display: flex;
+    grid-template-columns: 100px 1fr;
+    margin-right:1440px;
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.8s;
+    transition:opacity 0.15s;
+}
+.foot a:hover{
+    color:gray;
+    opacity: 0.8;
+    
+}
+.last-line{
+    margin-left: 200px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+hr{
+    
+    margin-right: 0%;
+}
+.all-male-players{
+    margin-left: 20px;
+}
+.all-female-players{
+    margin-left: 20px;
+}
+.group ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+.group ul li{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.group ul li a{
+color:#000000;
+text-decoration: underline;
+font-size:xx-large;
+font-weight: 700;
+font-style: normal;
+opacity: 0.5;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+transition:opacity 0.1s;
+
+
+}
+.group li:hover a{
+    transition: all 1s;
+    opacity: 0.9;
+}
+.group ul li a.men{
+    opacity: 0.9;
+}
+.group ul li a.under-21{
+    opacity: 0.9;
+}
+.group ul li a.under-18{
+    opacity: 0.9;
+}
+.group ul li a.women{
+    opacity: 0.9;
+}
+.goalkeepers-pics{
+    border-radius: 10px;
+    transition: transform 2s ease;
+}
+.goalkeepers-pics:hover{
+transform:scale(1.1);
+}
+.defenders-pics{
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: transform 2s ease;
+}
+.defenders-pics:hover{
+    transform:scale(1.1);
+}
+.midfielders-pics{
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: transform 2s ease;
+}
+.midfielders-pics:hover{
+    transform:scale(1.1);
+   
+}
+.attackers-pics{
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: transform 2s ease;
+}
+.attackers-pics:hover{
+    transform:scale(1.1);
+}
